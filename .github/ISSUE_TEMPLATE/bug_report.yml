@@ -1,6 +1,3 @@
-
-
-
 name: 🐛Bug Report
 description: File a bug report here with a clear and concise description of what the bug is.
 title: "[BUG]: "
@@ -43,18 +40,12 @@ body:
   - type: textarea
     id: device
     attributes:
-      label: device
-      description: If applicable, describe the device affected
+      label: Device
+      description: If applicable, describe the device affected. Please include the device, OS, browser, and version.
       placeholder: |
-        **Desktop (please complete the following information):**
-         - OS: [e.g. iOS]
-         - Browser [e.g. chrome, safari]
-         - Version [e.g. 22]
-
-        **Smartphone (please complete the following information):**
-         - Device: [e.g. iPhone6]
-         - OS: [e.g. iOS8.1]
-         - Browser [e.g. stock browser, safari]
+         - Device: [e.g. Desktop, iPhone6]
+         - OS: [e.g. Windows, iOS8.1]
+         - Browser [e.g. chrome, stock browser, safari]
          - Version [e.g. 22]
 
   - type: textarea
